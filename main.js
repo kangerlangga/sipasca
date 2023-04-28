@@ -65,7 +65,7 @@ const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const map = L.map('petaSebaran', {
     center: [-7.460011213921716, 112.70795407939627],
     zoom: 12,
-    layers: [osm, rumah_berat]
+    layers: [osm, posko, rumah_berat, rumah_sedang, rumah_ringan]
 });
 
 //Google Street
@@ -107,4 +107,4 @@ const overlays = {
     'Kerusakan Ringan': rumah_ringan,
 };
 
-const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+const layerControl = L.control.layers(baseLayers, overlays, overlays, overlays, overlays).addTo(map);
