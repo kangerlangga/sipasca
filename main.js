@@ -1,41 +1,41 @@
 var redHome = L.icon({
     iconUrl: 'img/home-red.png',
 
-    iconSize:     [25, 39], // size of the icon
+    iconSize:     [25, 38], // size of the icon
     shadowSize:   [0, 0], // size of the shadow
     iconAnchor:   [12, 39], // point of the icon which will correspond to marker's location
     shadowAnchor: [0, 0],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
 });
 
 var yellowHome = L.icon({
     iconUrl: 'img/home-yellow.png',
 
-    iconSize:     [25, 39], // size of the icon
+    iconSize:     [25, 38], // size of the icon
     shadowSize:   [0, 0], // size of the shadow
     iconAnchor:   [12, 39], // point of the icon which will correspond to marker's location
     shadowAnchor: [0, 0],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
 });
 
 var greenHome = L.icon({
     iconUrl: 'img/home-green.png',
 
-    iconSize:     [25, 39], // size of the icon
+    iconSize:     [25, 38], // size of the icon
     shadowSize:   [0, 0], // size of the shadow
     iconAnchor:   [12, 39], // point of the icon which will correspond to marker's location
     shadowAnchor: [0, 0],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
 });
 
 var blueHome = L.icon({
     iconUrl: 'img/home-blue.png',
 
-    iconSize:     [25, 39], // size of the icon
+    iconSize:     [25, 38], // size of the icon
     shadowSize:   [0, 0], // size of the shadow
     iconAnchor:   [12, 39], // point of the icon which will correspond to marker's location
     shadowAnchor: [0, 0],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
 });
 
 const rumah_berat = L.layerGroup();
