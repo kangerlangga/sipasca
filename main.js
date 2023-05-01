@@ -62,7 +62,7 @@ const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 });
 
 //Define Maps
-const map = L.map('petaSebaranBangunanRusak', {
+const map = L.map('petaSebaran', {
     center: [-7.460011213921716, 112.70795407939627],
     zoom: 12,
     layers: [osm, posko, rumah_berat, rumah_sedang, rumah_ringan]
