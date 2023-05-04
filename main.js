@@ -39,16 +39,43 @@ var blueHome = L.icon({
 });
 
 const rumah_berat = L.layerGroup();
-const rumah_berat_1 = L.marker([-7.460255555964899, 112.70779985238791], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_1 = L.marker([-7.423454208419702, 112.69466783777257], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_2 = L.marker([-7.423459527874966, 112.69472416415819], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_3 = L.marker([-7.4235127224239665, 112.69457932488085], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_4 = L.marker([-7.423877104911623, 112.69472684636703], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_5 = L.marker([-7.423605812869234, 112.69431378620573], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_6 = L.marker([-7.423595173962208, 112.69428696411731], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_7 = L.marker([-7.42367230603236, 112.69428964632617], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_8 = L.marker([-7.4235127224239665, 112.69516941082557], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_9 = L.marker([-7.423523361332991, 112.69534375440014], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_10 = L.marker([-7.423568576698158, 112.69535984768306], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_11 = L.marker([-7.423518041883174, 112.69538935198031], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_12 = L.marker([-7.423994132798463, 112.6955771066069], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_13 = L.marker([-7.424432987108735, 112.6955100513922], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_14 = L.marker([-7.424209570424834, 112.69511040226779], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
+const rumah_berat_15 = L.marker([-7.423879764639941, 112.69444789668438], {icon: redHome}).bindPopup('Rumah 1').addTo(rumah_berat);
 
 const rumah_sedang = L.layerGroup();
-const rumah_sedang_1 = L.marker([-7.460151170398643, 112.70807410824756], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_1 = L.marker([-7.423462187602558, 112.69421722668748], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_2 = L.marker([-7.42368028521126, 112.69426282423777], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_3 = L.marker([-7.424438306546492, 112.69411798496044], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_4 = L.marker([-7.424049987008191, 112.69385244628529], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_5 = L.marker([-7.424137757892727, 112.69461955801344], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
+const rumah_sedang_6 = L.marker([-7.424488841255703, 112.69427623528196], {icon: yellowHome}).bindPopup('Rumah 2').addTo(rumah_sedang);
 
 const rumah_ringan = L.layerGroup();
-const rumah_ringan_1 = L.marker([-7.4599876108006855, 112.70830410765778], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
+const rumah_ringan_1 = L.marker([-7.4234302708735775, 112.69383635299658], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
+const rumah_ringan_2 = L.marker([-7.423712201928728, 112.69336428424081], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
+const rumah_ringan_3 = L.marker([-7.423714861654807, 112.69339110632922], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
+const rumah_ringan_4 = L.marker([-7.4240872231464685, 112.69361104745406], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
+const rumah_ringan_5 = L.marker([-7.424342556566004, 112.69529815687956], {icon: greenHome}).bindPopup('Rumah 3').addTo(rumah_ringan);
 
 const posko = L.layerGroup();
-const posko_1 = L.marker([-7.459996919070119, 112.70791518736364], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
+const posko_1 = L.marker([-7.423730820007008, 112.69437547701384], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
+const posko_2 = L.marker([-7.4237760353476325, 112.6951130844512], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
+const posko_3 = L.marker([-7.424049987010976, 112.69421722666755], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
+const posko_4 = L.marker([-7.423270687174373, 112.69422259108228], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
+const posko_5 = L.marker([-7.424310639889171, 112.6954108096179], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
 
 // const mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
 // const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
