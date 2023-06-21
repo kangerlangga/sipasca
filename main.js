@@ -77,15 +77,9 @@ const posko_3 = L.marker([-7.424049987010976, 112.69421722666755], {icon: blueHo
 const posko_4 = L.marker([-7.423270687174373, 112.69422259108228], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
 const posko_5 = L.marker([-7.424310639889171, 112.6954108096179], {icon: blueHome}).bindPopup('Posko Bencana 1').addTo(posko);
 
-// const mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
-// const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
-
-// const streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
-
 //Open Street Maps
 const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    maxZoom: 19
 });
 
 //Define Maps
