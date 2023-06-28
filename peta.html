@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistem Pelayanan Pasca Bencana</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -17,15 +17,11 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script> -->
-
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF8E00;">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo-sipasca.png" width="100" style="padding: 0;"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF8E00; padding: 3px 3% 3px 3%;">
+            <a class="navbar-brand" href="#"><img src="img/logo-sipasca.png" width="120" style=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,17 +43,57 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 
     <!-- Konten Peta Sebaran Bangunan Rusak-->
     <section id="mapBangunanRusak" class="peta pt-3">
-        <center><h1 class="animate__animated animate__fadeInLeft">Peta <b>Sebaran Lokasi</b></h1></center>
+        <center><h3 class="animate__animated animate__fadeInLeft">Peta <b>Sebaran Lokasi</b></h3></center>
     </section>
-        <div id="petaSebaranBangunanRusak" class="petaSebaran" style="position: relative; outline-style: groove; outline-width: 5px;"></div>
-    
+    <div id="petaSebaranBangunanRusak" class="petaSebaran" style="position: relative; outline-style: groove; outline-width: 5px;"></div>
     <!-- Akhir Konten Peta Sebaran Bangunan Rusak -->
 
+    <div class="container">
+    <div class="row mb-2">
+                <div class="col-md">
+                    <div class="card mb-3" style="height: 180px;">
+                      <h5 class="card-header text-white text-center" style="background-color: #FF8E00;">Total Data Korban</h5>
+                      <div class="card-body">
+                        <h5 class="card-title">Total Korban : 50 Orang</h5>
+                        <p class="card-text">Korban Selamat : <b>40</b> Orang 
+                            <br>
+                            Korban Terluka : <b>8</b> Orang 
+                            <br>
+                            Korban Meninggal : <b>3</b> Orang</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card mb-3" style="height: 180px;">
+                      <h5 class="card-header text-white text-center" style="background-color: #FF8E00;">Total Data Kerusakan</h5>
+                      <div class="card-body">
+                        <h5 class="card-title">Total Kerusakan : 30 Bangunan</h5>
+                        <p class="card-text">Kerusakan Ringan : <b>20</b> Bangunan
+                            <br>
+                            Kerusakan Sedang : <b>3</b> Bangunan
+                            <br>
+                            Kerusakan Berat : <b>7</b> Bangunan</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="height: 180px;">
+                      <h5 class="card-header text-white text-center" style="background-color: #FF8E00;">Total Data Kebutuhan</h5>
+                      <div class="card-body">
+                        <h5 class="card-title">Total Jumlah Kebutuhan : 500 Unit</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary" style="background-color: #FF8E00;">Lihat Data Kebutuhan</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+    
     <!--Footer-->
     <footer class="text-white" style="background-color:#e67e22">
         <div class="container">
@@ -69,8 +105,7 @@
         </div>
     </footer>
     <!--Akhir Footer-->
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
