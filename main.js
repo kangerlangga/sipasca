@@ -86,7 +86,8 @@ const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const map = L.map('petaSebaranBangunanRusak', {
     center: [-7.423938278586701, 112.6946866132312],
     zoom: 17,
-    layers: [osm, posko, rumah_berat, rumah_sedang, rumah_ringan]
+    layers: [osm, posko, rumah_berat, rumah_sedang, rumah_ringan],
+    attributionControl: false
 });
 
 //Google Street
