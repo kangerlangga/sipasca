@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'id20974037_sipascadev',
-        'password' => '312L41799AF1T121H45Y1177@deltaprime',
-        'database' => 'id20974037_db_sipasca',
+        'username' => 'admin',
+        'password' => '',
+        'database' => 'db_sipasca',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
